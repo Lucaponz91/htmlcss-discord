@@ -97,13 +97,61 @@ header {
 }
 
 footer {
+    max-width: ;
     height: 730px;
+    background-color: #daefff;
 
 }
 
 .container-footer1 {
+    
     background-color: #23272A;
-    max-width: 1200px;
+    max-width: 1900px;
     height: 595px;
     margin: auto;
+}
+
+.col-container {
+    display: flex;
+    max-width: 1200px;
+    height: 530px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.col1 {
+    background-color: #F08080;
+    width: calc( 1200px / 6 * 2);
+    border: white dashed 2px;
+}
+
+.colsmall {
+    width: calc( 1200px / 6 );
+    background-color: #20B2AA;
+    border: white dashed 2px;
+}
+
+.container-footer2 {
+    background-color: #23272A;
+    max-width: 1900px;
+    height: 90px;
+    margin-top: 1px;
+}
+
+.footerflex {
+    display: flex;
+    justify-content: space-between;
+    background-color: #7FFFD4;
+    max-width: 1200px;
+    height: 90px;
+    margin: auto;
+    align-items: center;
+}
+
+.footer-logo {
+    background-color: #FFB6C1;
+}
+
+.footer-button {
+    background-color: #FFB6C1;
 }
