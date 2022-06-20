@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    max-width: 1900px;
+}
+
+header {
+    height: 80px;
+    background-color: #ADD8E6;
+    padding-top: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    background-color: #DAA520;
+}
+
+.header-links {
+    display: flex;
+}
+
+.col-header-logo {
+    width: calc( 100% / 4 );
+}
