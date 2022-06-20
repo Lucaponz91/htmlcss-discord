@@ -11,7 +11,7 @@ body {
 header {
     height: 80px;
     background-color: #ADD8E6;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .container {
@@ -19,12 +19,91 @@ header {
     justify-content: space-between;
     max-width: 1200px;
     background-color: #DAA520;
+    margin: auto;
 }
 
 .header-links {
     display: flex;
 }
 
-.col-header-logo {
-    width: calc( 100% / 4 );
+.section1 {
+    background-color: #00008B;
+    height: 500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container-descrizione {
+    background-color: #EE82EE;
+    height: 400px;
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+.descrizione {
+    max-width: 900px;
+    margin: auto;
+}
+
+.section2 {
+    background-color: white;
+    height: 600px;
+}
+
+.container-section2{
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    height: 500px;
+    padding-top: 50px;
+}
+
+.col60 {
+    width: 60%;
+    background-color: #1E90FF;
+}
+
+.col40 {
+    width: 40%;
+    background-color: #FFC0CB;
+}
+
+.section3 {
+    background-color: #D3D3D3;
+    height: 600px;
+}
+
+.container-section3{
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 1200px;
+    margin: auto;
+    height: 500px;
+    padding-top: 50px;
+}
+
+.section5 {
+    background-color: #D3D3D3;
+    height: 950px;
+    padding-top: 50px;
+}
+
+.container-section5 {
+    background-color: #228B22;
+    max-width: 1200px;
+    height: 850px;
+    margin: auto;
+}
+
+footer {
+    height: 730px;
+
+}
+
+.container-footer1 {
+    background-color: #23272A;
+    max-width: 1200px;
+    height: 595px;
+    margin: auto;
 }
