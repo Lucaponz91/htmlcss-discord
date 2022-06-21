@@ -24,6 +24,7 @@ header {
 
 .header-links {
     display: flex;
+    list-style:none;
 }
 
 .section1 {
