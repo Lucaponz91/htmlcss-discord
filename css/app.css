@@ -138,7 +138,7 @@ header {
 
 .section5 {
     background-color: #D3D3D3;
-    height: 950px;
+    height: 1070px;
     padding-top: 50px;
 }
 
@@ -166,7 +166,7 @@ footer {
     margin: auto;
 }
 
-h2 {
+.h2sections {
     background-image: url(../img/stars.svg);
     background-size: contain;
     font-size: 30px;
@@ -199,10 +199,32 @@ hr {
     margin: auto;
     margin-bottom: 40px;
 }
+
+.h2footer {
+    color: #7289DA;
+    font-size: 37px;
+    margin-bottom: 13px;
+}
+
 .col1 {
     background-color: #F08080;
     width: calc( 1200px / 6 * 2);
     border: white dashed 2px;
+}
+
+#ita {
+    height: 14px;
+}
+
+h4 {
+    color: white;
+    font-weight: 400;
+    display: inline;
+}
+
+#icone {
+    display: block;
+    margin-top: 13px;
 }
 
 .colsmall {
