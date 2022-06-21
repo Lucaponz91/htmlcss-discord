@@ -168,14 +168,19 @@ footer {
 
 h2 {
     background-image: url(../img/stars.svg);
+    background-size: contain;
+    font-size: 30px;
 
 }
 #macdownload {
     background-color: #7289DA;
     color: white;    
-    border-radius: 5px;
+    border-radius: 25px;
     border: none;
-    font-size: 20px;
+    margin-top: 42px;
+    padding: 12px;
+    font-size: 25px;
+    margin-inline: 470px;
 }
 
 .section-footer {
@@ -192,6 +197,7 @@ h2 {
 hr {
     max-width: 1200px;
     margin: auto;
+    margin-bottom: 40px;
 }
 .col1 {
     background-color: #F08080;
