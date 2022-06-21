@@ -20,6 +20,8 @@ header {
     max-width: 1200px;
     background-color: #DAA520;
     margin: auto;
+    height: 50px;
+    align-items: center;
 }
 
 .header-links {
