@@ -48,16 +48,46 @@ header {
 }
 
 .container-descrizione {
-    background-color: #EE82EE;
     height: 400px;
     max-width: 1200px;
     margin: auto;
-
 }
 
+.talking {
+    font-size: 55px;
+    color: white;
+    text-align: center;
+}
+
+.talkingpar {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 43px;
+}
 .descrizione {
     max-width: 900px;
     margin: auto;
+}
+
+.buttons-section1 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.whitebutton {
+    font-size: larger;
+}
+
+.blackbutton {
+    background-color: #23272A;
+    color: white;
+    font-size: larger;
+    border-radius: 16px;
+    padding: 10px;
+    border: none;
 }
 
 .section2 {
