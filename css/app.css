@@ -238,6 +238,17 @@ h4 {
     height: 90px;
 }
 
+h3 {
+    color: #7289DA;
+}
+
+li {
+    list-style: none;
+    color: white;
+    margin-top: 16px;
+    font-size: 17px;
+}
+
 .footerflex {
     display: flex;
     justify-content: space-between;
@@ -252,6 +263,14 @@ h4 {
     background-color: #FFB6C1;
 }
 
+#buttonfooter {
+    background-color: #7289DA;
+    color: white;
+    padding: 9px;
+    border-radius: 25px;
+    font-size: 16px;
+    border: none;
+}
 .footer-button {
     background-color: #FFB6C1;
 }
