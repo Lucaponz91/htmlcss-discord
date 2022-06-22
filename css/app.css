@@ -42,6 +42,7 @@ header {
 .section1 {
     background-image: url(../img/jumbo.png);
     background-size: cover;
+    background-position: center;
     height: 500px;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -151,7 +152,6 @@ header {
 }
 
 footer {
-    max-width: ;
     height: 730px;
     background-color: #daefff;
 
@@ -251,9 +251,6 @@ li {
     align-items: center;
 }
 
-.footer-logo {
-}
-
 #buttonfooter {
     background-color: #7289DA;
     color: white;
@@ -261,6 +258,4 @@ li {
     border-radius: 25px;
     font-size: 16px;
     border: none;
-}
-.footer-button {
 }
